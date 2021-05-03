@@ -1,0 +1,17 @@
+name: nmt_env
+channels:
+    - anaconda
+    - pytorch
+dependencies:
+    - python==3.7.6
+    - pytorch==1.4.0
+    - numpy==1.18.1
+    - scikit-learn==0.22
+    - pandas==1.0.3
+    - matplotlib
+    - pip
+    - pip:
+        - transformers==2.3.0
+        - tqdm==4.43
+        - torch==1.4.0
+        - googletrans==3.0.0
