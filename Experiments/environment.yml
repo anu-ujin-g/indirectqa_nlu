@@ -3,15 +3,14 @@ channels:
     - anaconda
     - pytorch
 dependencies:
-    - python==3.7.6
-    - pytorch==1.4.0
-    - numpy==1.18.1
-    - scikit-learn==0.22
-    - pandas==1.0.3
+    - python==3.8.6
+    - pytorch==1.8.0
+    - numpy==1.20.2
+    - scikit-learn==0.24.2
+    - pandas==1.2.4
     - matplotlib
     - pip
     - pip:
-        - transformers==2.3.0
-        - tqdm==4.43
-        - torch==1.4.0
-        - googletrans==3.0.0
+        - transformers==4.5.1
+        - tqdm==4.60.0
+        - torch==1.8.1
