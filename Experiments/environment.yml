@@ -4,13 +4,23 @@ channels:
     - pytorch
 dependencies:
     # - python==3.8.6
-    - pytorch==1.8.0
-    - numpy==1.18.5
-    - scikit-learn==0.23.1
-    - pandas==1.2.4
+    # - pytorch==1.8.0
+    # - numpy==1.18.5
+    # - scikit-learn==0.23.1
+    # - pandas==1.2.4
+    # - matplotlib
+    # - pip
+    # - pip:
+    #     - transformers==4.5.1
+    #     - tqdm==4.60.0
+    #     - torch==1.8.1
+    - pytorch
+    - numpy
+    - scikit-learn
+    - pandas
     - matplotlib
     - pip
     - pip:
-        - transformers==4.5.1
-        - tqdm==4.60.0
-        - torch==1.8.1
+        - transformers
+        - tqdm
+        - torch
