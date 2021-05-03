@@ -12,9 +12,9 @@
 #SBATCH --output=/scratch/ago265/nlu_project/outputs/%j.out
 
 module purge
-module load anaconda3/5.3.1
-module load cuda/10.0.130
-module load gcc/6.3.0
+module load anaconda3/2020.07
+module load cuda/11.1.74
+module load gcc/10.2.0
 
 # Replace with your NetID
 NETID=ago265
